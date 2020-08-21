@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>Ludo Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <input type="number" placeholder="Final score" class="final-score">
+            
+            <img src="img/dice-1.png" alt="Dice" class="dice" id="dice-1">
+            <img src="img/dice-2.png" alt="Dice" class="dice" id="dice-2">
+        </div>
+        <div class="name_input_a">
+            <h3>Enter 1st Player Name</h3>
+            <input type="text" id="" maxlength="12">
+            <button type="submit" class="name-a" onclick="getPlayersNameA();">aa</button>
+        </div>
+        <div class="name_input_b">
+            <h3>Enter 2nd Player Name</h3>
+            <input type="text" id="" maxlength="12">
+            <button type="submit" class="name-b" onclick="getPlayersNameB();">aa</button>
+        </divm>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
